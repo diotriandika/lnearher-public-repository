@@ -11,7 +11,7 @@ Sebenarnya sekarang kita sudah bisa mekakses server melalui remote/ssh, tapi jik
 ## Konfigurasi OpenSSH
 Edit file `sshd_config`
 
-    sudo nano /etc/ssh/sshd_conf
+    sudo nano /etc/ssh/sshd_config
 
 Untuk mengatur jalur port yang didukung ketika melakukan remote access, uncomment port dan sesuaikan port dengan kebutuhan
 
