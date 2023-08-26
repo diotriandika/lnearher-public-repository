@@ -1,5 +1,5 @@
 # Langkah - Langkah Mengganti Hostname
-Hostname sebuah perangkat bisa dikatakan nama/alias dari sebuah perangkat tersebut.
+Hostname sebuah perangkat bisa dikatakan nama/alias dari perangkat tersebut.
 ## Mengganti Hostname melalui /etc/hostname
 Masuk User ROOT
 
