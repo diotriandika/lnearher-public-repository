@@ -1,5 +1,5 @@
 # Langkah - langkah Mengaktifkan IP Forwarding
-IP Forwarding berfungsi agar dua network atau lebih bisa saling bertukar informasi ataupun data.
+IP Forwarding berfungsi agar yang semua network yang terhubung bisa saling bertukar informasi ataupun data.
 ## Mengaktifkan IP Forwarding via sysctl.conf
 Untuk mengaktifkan IP Forwarding via `sysctl.conf` bisa melakukan hal berikut
 
