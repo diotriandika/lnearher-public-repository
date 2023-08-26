@@ -34,11 +34,11 @@ Edit file `/etc/hosts` dan rename default hostname dengan hostname yang baru ata
 ## Mengganti Hostname menggunakan hostnamectl
 Gunakan program `hostnamectl` untuk mengganti hostname
 
-    sudo hostnamectl set-hostname <new-hostname>
+    hostnamectl set-hostname <new-hostname>
 
 Edit file `/etc/hosts` dan tambahkan `127.0.0.1 <hostname>` dibawah default hostname
 
-    sudo nano /etc/hosts
+    nano /etc/hosts
 
 ## Verifikasi
 Untuk melihat apakah hostname sudah berhasil diubah atau belum, bisa menggunakan command `hostname`, re-login atau juga bisa langsung reboot system
