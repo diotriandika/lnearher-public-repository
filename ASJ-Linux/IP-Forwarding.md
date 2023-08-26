@@ -7,7 +7,7 @@ Edit file `sysctl.conf`
 
     sudo nano /etc/sysctl.conf
 
-lalu uncomment pada line `net.ipv4_forwarding =1`
+lalu uncomment pada line `net.ipv4_forwarding=1`
 
 Save file 
 
