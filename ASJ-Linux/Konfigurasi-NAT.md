@@ -20,7 +20,7 @@ Simpan ruleset iptables dengan command
 
     sudo iptables-save > /etc/iptables.up.rule
 
-Selanjutnya buat executetable bash script untuk auto exec ketika booting
+Selanjutnya buat file exec bash script untuk auto exec ketika booting
 
     sudo nano /etc/network/if-pre-up.d/iptables
 
