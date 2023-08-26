@@ -32,7 +32,7 @@ Isi dengan script dibawah
 
 Kemudian set permission file agar dapat di exec
 
-    chmod +x /etc/network/if-pre-up.d/iptables
+    sudo chmod +x /etc/network/if-pre-up.d/iptables
 
 **_Done_**
 
