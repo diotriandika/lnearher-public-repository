@@ -43,4 +43,3 @@ Edit file `/etc/hosts` dan tambahkan `127.0.0.1 <hostname>` dibawah default host
 ## Verifikasi
 Untuk melihat apakah hostname sudah berhasil diubah atau belum, bisa menggunakan command `hostname`, re-login atau juga bisa langsung reboot system
 
-Main Repo : https://github.com/diotriandika/learn-networking/tree/863101c2bc5a0acc399a70f2e144ba0d3be630cc/Basic%20Configuration%20Linux/Assesmen%20Sistem%20Jaringan%20XI
