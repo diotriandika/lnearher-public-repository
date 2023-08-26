@@ -1,7 +1,7 @@
 # Langkah - Langkah Instalasi OpenSSH sebagai Remote Access Server
 OpenSSH merupakan sebuah tool yang biasanya digunakan untuk mengakses remote sebuah server, file transfer dan lain lain.
 ## Instalasi OpenSSH
-Update list package dengan `sudo apt update` 
+Update list package dengan `sudo apt update` atau `sudo apt-get update`
 
 Install OpenSSH 
 
