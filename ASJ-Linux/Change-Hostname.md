@@ -19,13 +19,13 @@ Edit file `/etc/hosts` dan rename default hostname dengan hostname yang baru ata
 
     nano /etc/hosts
 
-> Sebelum
+> Default
 > 
 > ![image](https://github.com/diotriandika/learn-networking/assets/109568349/4490a06c-50ca-40a0-a796-f41af54ba02f)
 >
-> Sesudah
+> Set dengan format `127.0.1.1 {{fqdn}} {{hostname}}`
 >
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/5b3a4d2f-7aa8-494c-bf2e-8079194dc445)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/f3b73599-fadb-401e-aeb9-07f24b4b7231)
 >
 > Atau
 >
@@ -43,3 +43,13 @@ Edit file `/etc/hosts` dan tambahkan `127.0.0.1 <hostname>` dibawah default host
 ## Verifikasi
 Untuk melihat apakah hostname sudah berhasil diubah atau belum, bisa menggunakan command `hostname`, re-login atau juga bisa langsung reboot system
 
+## Troubleshoot
+Jika hostname yang diset di `/etc/hosts` hilang, set permanent dengan mengubah konfigurasi di `/etc/cloud/templates/hosts.debian.tmpl` dan set line ini
+
+> replace {{fqdn}} dengan qualified domain name kalian, atau jika bingung apa itu bisa replace dengan hostname kalian saja
+> 
+> replace {{hostname}} dengan hostname kalian
+>
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/02b2bb47-4f18-4494-ace3-2dcdbf8a29db)
+>
+> Atau jika bingung bisa tambahkan line baru seperti yang diatas dengan format `127.0.0.1 <your-hostname>`
