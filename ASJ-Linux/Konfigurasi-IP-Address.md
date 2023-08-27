@@ -22,11 +22,12 @@ iface <interface> inet static
     gateway <ip-gateway>
     dns-nameserver <dns>
 ```
-> Note :  - <interface> replace dengan nama dari interface yang ingin kalian tambahkan IP Address
->         - <ip-address> replace dengan IP Address yang ingin kalian tambahkan
->         - <subnetmask> replace dengan subnetmask dari IP Address, misal subnet dari prefix `/28` yaitu `255.255.255.240`
->         - gateway, ini opsional sesuaikan dengan Topologi
->         - dns-nameserver isi dengan DNS yang ingin ditambahkan, namun jika tidak bisa hilangkan.
+> Note :
+> - <interface> replace dengan nama dari interface yang ingin kalian tambahkan IP Address
+> - <ip-address> replace dengan IP Address yang ingin kalian tambahkan
+> - <subnetmask> replace dengan subnetmask dari IP Address, misal subnet dari prefix `/28` yaitu `255.255.255.240`
+> - gateway, ini opsional sesuaikan dengan Topologi
+> - dns-nameserver isi dengan DNS yang ingin ditambahkan, namun jika tidak bisa hilangkan.
 >
 > Contoh :
 >
@@ -65,4 +66,5 @@ sudo /etc/init.d/networking restart
 Cek apakah konfigurasi IP sudah benar apa belum dengan mengetikan command `ip a` pada command line
 
 ![image](https://github.com/diotriandika/learn-networking/assets/109568349/b10b8490-744a-4436-abe6-01eb450d0764)
+
 
