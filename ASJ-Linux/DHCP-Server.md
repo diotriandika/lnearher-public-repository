@@ -18,7 +18,7 @@ Selanjutnya Edit file `dhcpd.conf`
 ```
 sudo nano -l /etc/dhcp/dhcpd.conf
 ```
-Uncomment pada line berikut
+Uncomment pada line berikut, dan sesuaikan dengan keinginan.
 ```
 21 authoritative;
 
