@@ -38,7 +38,7 @@ Uncomment pada line berikut
 ```
 > Contoh :
 >
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/3e847ba4-bb89-4f00-ba8f-babeb480b191)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/80cf43d4-ef06-40b4-adbe-e32114de46aa)
 >
 
 Save dan Exit dengan CTRL+X kemudian Y dan ENTER
