@@ -89,6 +89,6 @@ Contoh
 
 ## Verifikasi
 Cek client apakah sudah mendapatkan IP dari DHCP apa belum
-![image](https://github.com/diotriandika/learn-networking/assets/109568349/6e634e90-d776-4b0b-bbb7-b9df28b02e18)
+> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/6e634e90-d776-4b0b-bbb7-b9df28b02e18)
 
 **_Done_**
