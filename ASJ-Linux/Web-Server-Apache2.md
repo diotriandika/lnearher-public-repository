@@ -1,5 +1,5 @@
 # Langkah - Langkah Instalasi dan Konfigurasi Apache2
-Apache merupakan sebuah program yang menyediakan layanan website.
+Apache merupakan sebuah program webserver yang menyediakan layanan website.
 
 Topologi yang saya gunakan :
 > ![image](https://github.com/diotriandika/learn-networking/assets/109568349/758fde41-5a77-46f2-9c89-21d3c94bccdf)
