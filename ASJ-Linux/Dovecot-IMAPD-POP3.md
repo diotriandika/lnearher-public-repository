@@ -3,7 +3,7 @@ Dovecot adalah server IMAP & POP3 yang bertugas untuk menyimpan dan meneruskan e
 
 > Berikut referensi hubungan antara Postfix dengan Dovecot : https://www.proweb.co.id/articles/postfix/postfix_dovecot.html
 
-- Pastikan sudah melakukan konfigurasi dengan Postfix seperti halnya [disini](https://github.com/diotriandika/learn-networking/blob/main/Basic%20Configuration%20Linux/Setup-Service-LKSN2022/Postfix-SMTP-Server.md)
+- Pastikan sudah melakukan konfigurasi dengan Postfix seperti halnya [disini](https://github.com/diotriandika/lnearher-public-repository/blob/8a45703017243daed31d03b9a83687f1cad47e93/ASJ-Linux/Postfix-SMTP-Server.md)
 ## Instalasi Dovecot
 Install Dovecot dengan IMAPD dan POP3
 ```
