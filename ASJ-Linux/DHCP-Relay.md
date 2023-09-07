@@ -19,11 +19,11 @@ DHCP-Server SRV (Node-2)
 Install `isc-dhcp-server` di Node yang menyediakan DHCP-Server. Untuk cara Installasi dan Konfigurasi DHCP-Server cek [disini](https://github.com/diotriandika/lnearher-public-repository/blob/edda35884e18f67bd06b6982805cebac8eb612e5/ASJ-Linux/DHCP-Server.md), akan tetapi terdapat perbedaan pada konfigurasi file `dhcpd.conf`
 
 Edit file `dhcpd.conf`
-```
+```bash
 sudo nano /etc/dhcp/dhcpd.conf
 ```
 Ikuti format dibawah
-```
+```bash
 uncomment :
  21 authoritative;
 
@@ -52,7 +52,7 @@ Exit dan save, kemudian restart service
 Update package dengan `apt-get update`
 
 Install `isc-dhcp-server`
-```
+```bash
 sudo apt-get install isc-dhcp-server
 ```
 Selanjutnya akan muncul menu seperti dibawah.
@@ -68,16 +68,16 @@ Menu selanjutnya adalah memasukan informasi Interface mana yang akan dipakai unt
 Untuk menu selanjutnya bisa dikosongkan saja, dan pilih OK.
 
 > Note : Jika salah dalam mengisi opsi - opsi diatas, kita bisa konfigurasi ulang dengan menjalankan command
-> ```
+> ```bash
 > dpkg-reconfigure isc-dhcp-relay
 > ```
 
 Restart service `isc-dhcp-relay`
-```
+```bash
 sudo systemctl restart isc-dhcp-relay
 ```
 Terakhir kita aktifkan dengan menjalankan command 
-```
+```bash
 sudo dhcrelays <ip-node-dhcp-server>
 ```
 Contoh
