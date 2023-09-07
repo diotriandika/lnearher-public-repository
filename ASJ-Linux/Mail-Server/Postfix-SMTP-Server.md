@@ -14,7 +14,7 @@ Update list package dengan `apt-get update` kemudian install postfix
 sudo apt install postfix -y
 ```
 Akan muncul menu seperti dibawah, select OK dan menu selanjutnya pilih Internet Site
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/ecc1a9f3-6996-4213-822a-b1e3c34e4469)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/3e390e38-7831-4ac2-b062-cd7d626cf8a4)
 >
 > ![image](https://github.com/diotriandika/learn-networking/assets/109568349/5d8d2fe2-cfef-4ce4-a5c3-ef457f012d47)
 
