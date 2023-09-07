@@ -14,17 +14,16 @@ Edit file konfigurasi `dovecot.conf` dan uncomment pada line ke 30
 ```
 sudo nano -l /etc/dovecot/dovecot.conf
 ```
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/cc328b37-0009-46b7-90c1-984129f83909)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/a427cd46-e047-45de-b661-a61ec36d0df1)
 
 Edit file konfigurasi `10-auth.conf`, uncomment di line 10 dan ganti disable_plaintext_auth menjadi no
 ```
 sudo nano -l /etc/dovecot/conf.d/10-auth.conf
 ```
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/24f4310b-c8fe-4b90-9461-eb509477156c)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/8f48250e-5697-414b-a370-0c8ae6dc5341)
 
 Edit file konfigurasi `10-mail.conf`, edit `mail_location` dengan `~/Maildir`
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/be1b5cd0-b59b-4a39-84ce-96dcdc30aa71)
-
+> 
 Terakhir restart service dovecot
 ```
 sudo systemctl restart dovecot
@@ -41,7 +40,7 @@ pass <user-receiver-password>
 list
 retr <message number>
 ```
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/e006762d-1aa8-4c42-ab8c-4c59b85ff22c)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/f1b97809-8656-458b-a9ef-cba1ae43b7e6)
 
 Nah disini sudah bisa kita lihat isi pesan yang dikirim sebelumnya oleh `zeta@itnsa.id`
 > Note : Jika tidak ada pesan masuk. Coba restart kedua service `postfix` dan `dovecot` lalu kirim pesan ulang seperti sebelumnya
