@@ -16,10 +16,10 @@ sudo apt install postfix -y
 Akan muncul menu seperti dibawah, select OK dan menu selanjutnya pilih Internet Site
 > ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/3e390e38-7831-4ac2-b062-cd7d626cf8a4)
 >
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/5d8d2fe2-cfef-4ce4-a5c3-ef457f012d47)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/a0e21bdb-8a31-43db-ac4d-b29483c51fce)
 
 Selanjutnya masukan domain name di menu dibawah, ini nantinya akan menjadi domain pada alamat e-mail nantinya. Contohnya disini saya menggunakan `itnsa.id` yang dimana nantinya akan menjadi alamat email `user@itnsa.id`.
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/e7545256-b924-4042-a6b6-ed22b6981dd0)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/723f6721-afd6-4197-85c5-2c11b47ab581)
 
 ## Konfigurasi Postfix
 Edit file `main.cf` untuk mengalokasikan direktori mail
@@ -35,24 +35,24 @@ sudo dpkg-reconfigure postfix
 Untuk menu awal hingga menu domain, kita samakan dengan sebelumnya. Disini kita juga bisa merubah konfigurasi yang kita lakukan sebelumnya jika dirasa ada yang salah/sekedar ingin merubah.
 
 Untuk di menu postmaster recipient dikosongkan saja
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/a8eab652-505b-4308-b14c-bafc48ebcb29)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/fdc2f859-2612-468d-b9dc-c1409db3f8f3)
 
 Menu selanjutnya kita bisa menambahkan accept mail dari domain lain atau server lain. Untuk menu Force Synchronous pilih NO.
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/03948aab-2b96-451c-9685-4767e24ef51a)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/50946dad-e0e7-4f67-8475-d4b6d1f75dbc)
 >
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/52c961e1-0779-40cf-972d-c00db65ba51c)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/76365a38-e0b0-49ad-bff0-daef45fa9c31)
 
 Menu Local Network, masukan semua Network Local yang ingin diberikan akses. Disini saya menggunakan 0.0.0.0/0 yang bertujuan untuk memberikan akses kesemua network yang terhubung oleh server saya.
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/e64eab8d-3027-4d66-a304-4826a2c3f3fd)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/02c2a1de-c39c-42c8-b27b-5dcfc87c2d75)
 
 Untuk mailbox size limit, `0` disini berarti tidak dibatasi.
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/1fa27acc-39a6-4711-b0c5-f4df65c7cd4d)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/3acf58db-d038-461b-b29c-ba6937e09cf3)
 
 Menu ini yaitu memberikan ekstensi pada Local Address yang bertujuan untuk mendefiniskan setiap network. Disini kosongin aja
-![image](https://github.com/diotriandika/learn-networking/assets/109568349/c4d28277-29f0-4c67-b147-fdca56244186)
+![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/e149f3e1-a89b-43e4-bd37-1bad8ba1ada5)
 
 Terakhir menentukan protokol IP mana yang akan digunakan. Karena saya hanya menggunakan IPv4, oleh karena itu saya memiliih opsi IPv4 lalu OK
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/3eac23b9-892c-4d6d-8ce8-ac4f9d77b1fa)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/c0663be2-1d69-4c69-bd7e-134e42f78ce8)
 
 > Note : Jika ada salah konfigurasi, gunakan `dpkg-reconfigure <service>` untuk konfigurasi ulang
 
@@ -67,7 +67,7 @@ Untuk meverifikasi apakah Postfix sudah berjalan, pertama kita buat user terlebi
 sudo adduser <user>
 ```
 Disini saya membuat dua user sebagai test (nantinya mona akan sebagai penerima di task berikutnya)
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/e1266c47-757c-4327-a509-2019078a8614)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/658e80e2-11b8-4817-8ef3-f37dc2f2df34)
 
 Mengirim pesan dengan telnet. Untuk mengirim pesan menggunakan telnet, disini menggunakan port 25
 ```
@@ -82,5 +82,5 @@ data
 .
 quit
 ```
-> !![image](https://github.com/diotriandika/learn-networking/assets/109568349/c0201933-5810-49cd-84e2-05ddedaca463)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/3e8f1227-d2ef-46f3-8bd6-4cf2da6cc661)
 
