@@ -13,7 +13,7 @@ Reboot system menggunakan
 
 Jika terjadi error seperti dibawah
 
-![image](https://github.com/diotriandika/learn-networking/assets/109568349/c97ad4b9-a161-4df0-980f-90b2b891b273)
+[![image](https://github.com/diotriandika/learn-networking/assets/109568349/c97ad4b9-a161-4df0-980f-90b2b891b273)](https://github-production-user-asset-6210df.s3.amazonaws.com/109568349/263467903-c97ad4b9-a161-4df0-980f-90b2b891b273.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230907%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230907T024605Z&X-Amz-Expires=300&X-Amz-Signature=4cc2bb20495e366df44f06c800319583382a60f4c84d0d21a1aba9360ae1d45a&X-Amz-SignedHeaders=host&actor_id=109568349&key_id=0&repo_id=676416420)
 
 Edit file `/etc/hosts` dan rename default hostname dengan hostname yang baru atau tambahkan line baru dibawah kemudian save & exit
 
