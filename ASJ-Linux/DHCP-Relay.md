@@ -51,9 +51,9 @@ Exit dan save, kemudian restart service
 ## Installasi DHCP-Relay
 Update package dengan `apt-get update`
 
-Install `isc-dhcp-server`
+Install `isc-dhcp-relay`
 ```bash
-sudo apt-get install isc-dhcp-server
+sudo apt-get install isc-dhcp-relay
 ```
 Selanjutnya akan muncul menu seperti dibawah.
 ## Konfigurasi DHCP-Relay
