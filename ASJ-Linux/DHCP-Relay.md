@@ -29,9 +29,6 @@ uncomment :
 
  30 subnet <ip-node-2> netmask <subnetmask-ip-node-2> {
  31 }
- 32
- 33 subnet <netowrk-ip-dhcp> netmask <subnetmask-ip-dhcp> {
- 34 }
 
  52 # A slightly different configuration for an internal subnet.
  53 subnet <network-ip-dhcp> netmask <subnetmask-ip-dhcp> {
