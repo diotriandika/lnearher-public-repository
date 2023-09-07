@@ -1,4 +1,4 @@
-# Langkah - Langkah Instalasi dan Konfigurasi Email Server dengan Postfix SMTP
+![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/944d33e6-362b-47d2-83ce-d6d00aa4e379)# Langkah - Langkah Instalasi dan Konfigurasi Email Server dengan Postfix SMTP
 Postfix sebagai SMTP-Server adalah sebuah MTA (Message Transfer Agent) yang menyediakan layanan untuk mengirimkian email.
 
 - Pastikan IP Address sudah terkonfigurasi
@@ -26,7 +26,7 @@ Edit file `main.cf` untuk mengalokasikan direktori mail
 ```
 sudo nano /etc/postfix/main.cf
 ```
-> ![image](https://github.com/diotriandika/learn-networking/assets/109568349/3ae25d5c-0ff5-471b-b827-de84a592f118)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/663f77fd-b5f9-4f1f-8768-a578620c58a1)
 
 Reconfigure Postfix dengan command :
 ```
