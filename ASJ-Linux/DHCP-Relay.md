@@ -60,9 +60,8 @@ sudo apt-get install isc-dhcp-server
 ```
 Selanjutnya akan muncul menu seperti dibawah.
 ## Konfigurasi DHCP-Relay
->![image](https://github.com/diotriandika/learn-networking/assets/109568349/99985739-d06b-4bcb-8681-0c2df01718b0)
->
 Dsini masukan IP dari Node DHCP-Server. _Ingat, IP Dari Node/Host penyedia DHCP-Server, bukan IP yang akan didistribusikan_
+>![image](https://github.com/diotriandika/learn-networking/assets/109568349/99985739-d06b-4bcb-8681-0c2df01718b0)
 
 Pilih OK. 
 
