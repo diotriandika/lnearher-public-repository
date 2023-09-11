@@ -27,7 +27,7 @@ Ikuti format dibawah
 uncomment :
  21 authoritative;
 
- 30 subnet <ip-node-2> netmask <subnetmask-ip-node-2> {
+ 30 subnet <network-ip-node-2> netmask <subnetmask-ip-node-2> {
  31 }
 
  52 # A slightly different configuration for an internal subnet.
@@ -42,9 +42,9 @@ uncomment :
  61 }
 ```
 Contoh :
-> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/5580a79c-b84e-45d2-bd39-aa9bb5b49f63)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/159cc3c8-d0f4-464a-b9e5-c1a7b876b8e2)
 >
-> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/b971d4f2-58d8-4152-8fd7-6c5f5d40b9dc)
+> ![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/2f8df16d-5775-4a93-971f-167ddcdc9981)
 
 Exit dan save, kemudian restart service
 
