@@ -26,7 +26,7 @@ Selanjutnya buat file exec bash script untuk auto exec ketika booting
 
 Isi dengan script dibawah
 ```
-#!/bin/sh
+#! /bin/sh
 /sbin/iptables-restore < /etc/iptables.up.rules
 ```
 
