@@ -164,7 +164,9 @@ Akan terlihat daftar dari Data Monitoring yang sudah dibuat sebelumnya. Selanjut
 
 > Data Monitoring yang sudah **terhapus** **tidak dapat** **dikembalikan/direstore!** Jadi harap untuk berhati - hati ketika ingin menghapus data Monitoring.
 
-soon
+Untuk menghapus data monitoring, pertama buka Daftar Monitoring lalu geser list kekanan seperti dibawah. Akan terlihat tombol berwarna merah, Bapak/Ibu bisa menekan tombol tersebut untuk menghapus Data Monitoring yang diinginkan.
+![image](https://github.com/diotriandika/lnearher-public-repository/assets/109568349/5937e00d-0298-4cec-bbd8-d6065b95d9b2)
+
 
 ### FItur Tambahan
 
